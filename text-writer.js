@@ -1,4 +1,4 @@
-function textWriter(classEl, speed=200) {
+function textWriter(classEl, speed=100) {
     if (typeof classEl == "string") {
         let el = document.querySelector(classEl);
         let text = el.getAttribute('data-text');
